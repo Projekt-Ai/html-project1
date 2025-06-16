@@ -2,112 +2,123 @@
 <html lang="lang-us">
 	<head>
 		<meta charset="UTF-8">
-		<title>Create an Account</title>
+		<title>Welcome to My Webpage</title>
+		<link rel="stylesheet" href="../css/mySite.css">
+		<link rel="https://fonts.google.com/specimen/Nunito" type="stylesheet">
 	</head>
-	<body>
-		<form action="https://unfinishedbusiness.app/alert.php" method="post">
-			<fieldset>
-				<legend>Personal Information</legend>
-				<p>
-					<label for="first">First Name:</label>
-					<input type="text" name="first" id="first" required>
-				</p>
-				<p>
-					<label for="last">Last Name:</label>
-					<input type="text" name="last" id="last" required>
-				</p>
-				<p>
-					<label for="address">Email Address:</label>
-					<input type="text" name="address" id="address" placeholder="name@domain.com" required>
-				</p>
-				<p>
-					<label for="pass">Password:</label>
-					<input type="password" name="pass" id="pass" required>
-				</p>
-				<p>
-					<label for="confirm_pass">Confirm Password:</label>
-					<input type="password" name="confirm_pass" id="confirm_pass" required>
-				</p>
-				<p>
-					<label for="bd">Birth Date:</label>
-					<input type="date" name="bd" id="bd" min="1970-01-01" max="2030-12-31" value="2000-10-21" required>
-				</p>
-			</fieldset>
-			
-			<fieldset>
-				<legend>Major</legend>
-				<div>
-					<input type="radio" name="majors" value="Computer Science" id="compSci" required>
-					<label for="compSci"><a href="https://www.unf.edu/ccec/computing/computer-science-program.html" target="_blank">Computer Science</a></label>
-				</div>
-				<div>
-					<input type="radio" name="majors" value="Data Science" id="dataSci" required>
-					<label for="dataSci"><a href="https://www.unf.edu/ccec/computing/data-science-program.html" target="_blank">Data Science</a></label>
-				</div>
-				<div>
-					<input type="radio" name="majors" value="FinTech" id="finT" required>
-					<label for="finT"><a href="https://www.unf.edu/ccec/computing/Financial-Technology-program.html" target="_blank">FinTech</a></label>
-				</div>
-				<div>
-					<input type="radio" name="majors" value="Information Science" id="infoSci" required>
-					<label for="infoSci"><a href="https://www.unf.edu/ccec/computing/information-science-program.html" target="_blank">Information Science</a></label>
-				</div>
-				<div>
-					<input type="radio" name="majors" value="Information Systems" id="infoSys" required>
-					<label for="infoSys"><a href="https://www.unf.edu/ccec/computing/information-systems-program.html" target="_blank">Information Systems</a>
-				</div>
-				<div>
-					<input type="radio" name="majors" value="Information Technology" id="infoTech" required>
-					<label for="infoTech"><a href="https://www.unf.edu/ccec/computing/information-technology-program.html" target="_blank">Information Technology</a></label>
-				</div>
-			</fieldset>
-			
-			<fieldset>
-				<legend>Programming Language Experience:</legend>
-				<p>
-      			<label for="c"><a href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank">C</a></label>
-      			<input type="checkbox" id="c" name="c">
-   				</p>
-				<p>
-      			<label for="c#"><a href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)" target="_blank">C#</a>
-      			<input type="checkbox" id="c#" name="c#">
-   				</p>
-				<p>
-      			<label for="java"><a href="https://en.wikipedia.org/wiki/Java_(programming_language)" target="_blank">Java</a></label>
-      			<input type="checkbox" id="java" name="java">
-   				</p>
-				<p>
-      			<label for="javaS"><a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">JavaScript</label>
-      			<input type="checkbox" id="javaS" name="javaS">
-   				</p>
-				<p>
-      			<label for="php"><a href="https://en.wikipedia.org/wiki/PHP" target="_blank">PHP</label>
-      			<input type="checkbox" id="php" name="php">
-   				</p>
-				<p>
-      			<label for="python"><a href="https://en.wikipedia.org/wiki/Python_(programming_language)" target="_blank">Python</a></label>
-      			<input type="checkbox" id="python" name="python">
-   				</p>
-				<p>
-      			<label for="visualB"><a href="https://simple.wikipedia.org/wiki/Visual_Basic" target="_blank">Visual Basic</a></label>
-      			<input type="checkbox" id="visualB" name="visualB">
-   				</p>
-				<p>
-      			<label for="other">Other</label>
-      			<input type="checkbox" id="other" name="other">
-   				</p>
-			</fieldset>
-			
-			<button type="submit">Submit</button>
-			<button type="reset">Reset</button>
-			<input type="hidden" name="username" value="548400527" />
-			<input type="hidden" name="to_email_address" value="n01540490@unf.edu" />
-			<input type="hidden" name="to_display_name" value="Kailani Thomas" />
-		</form>
-		
+	<body class="project1">
+		<header>
+			<div class="head-container">
+				<nav class="head-nav">
+					<a href="schedule.html">Schedule</a>
+					<a href="account.html">Account Creation</a>
+					<a href="../index.html">ePortfolio</a>
+				</nav>
+			</div>
+		</header>
+		<h1>Christian "Kailani" Thomas</h1>
+		<div>
+			<img src="images/IMG_0311.jpg" alt="My career fair headshot" width="178" height="267">
+		</div>
+
+<div class="section-container">
+  <section id="Intro">
+    <h2>About Me</h2>
+    <p>
+      My name is Christiaan Thomas, but most refer to me with Kailani or Kai. My family is from Jamaica, but I was born and 
+      spent most of my life in Jacksonville. I was originally an Electrical Engineering student at UNF but currently pursue a 
+      degree in Information Technology. My reason for the switch involved the fact the only course I truly enjoyed my first 
+      year being Programming 1, as well as the fact I would be partially correct in saying learning physics sent me to the hospital.
+    </p>
+
+    <p>
+      I currently work with the 
+      <a href="https://en.wikipedia.org/wiki/100_Black_Men_of_America" target="_blank">100 Black Men</a> 
+      under their Mayor's Youth at Work partnership. Since February 2022 I've been working with them as an intern for a number of tasks. 
+      Currently, we have gotten into the development of artificial intelligence, particularly for the sake of automation. Apart 
+      from this, I've also done a number of 3D art and composition projects.
+    </p>
+
+    <p>
+      During summers I sometimes go to a Christian youth camp in 
+      <a href="https://en.wikipedia.org/wiki/Chapelton,_Jamaica" target="_blank">Chapelton, Jamaica</a>
+      to volunteer. I'm not too good with children so I often end up being a general assistant for the directors of the camp, 
+      but a few years ago I did work with a group to teach music and perform at the end of the week.
+    </p>
+  </section>
+
+  <section id="Hobbies">
+    <h2>Hobbies & Interests</h2>
+    <p>
+      My primary hobby has always been gaming, from having nothing more than a kindle playing gameboy emulators to a laptop built 
+	  especially for running high graphics video game content. But really, most of my favourites have had a tendency to be titles played 
+	  on Nintendo's Switch console. My all time favourite being the <a href="https://en.wikipedia.org/wiki/Xenoblade_Chronicles" target="_blank">Xenoblade Chronicles</a> series, 
+	  particularly <a href="https://en.wikipedia.org/wiki/Xenoblade_Chronicles_(video_game)" target="_blank">one</a> and <a href="https://en.wikipedia.org/wiki/Xenoblade_Chronicles_3" target="_blank">three</a>. 
+	  I have yet find time to play the other two in the series, but they are somewhere on my list. Other games I've been enjoying 
+	  recently are detective-style stories such as <a href="https://en.wikipedia.org/wiki/Duck_Detective:_The_Secret_Salami" target="_blank">Duck Detective</a>, 
+	  party-based roleplaying games such as <a href="https://en.wikipedia.org/wiki/Metaphor:_ReFantazio" target="_blank">Metaphor: ReFantazio</a>, 
+	  and pure action or stealth-focused games such as <a href="https://en.wikipedia.org/wiki/Horizon_Zero_Dawn" target="_blank">Horizon Zero Dawn</a>.
+    </p>
+    <p>
+      But recently I've really gotten into building <a href="https://en.wikipedia.org/wiki/Gunpla" target="_blank">Gunpla</a>, or 
+	  gundam model kits. It has become a time-consuming yet relaxing hobby if I need to forget about the world for a few hours. My most 
+	  recent build has been a Barbatos Lupus, but my absolute favourite to work on was the Mazinger Zero Infinitism I found at hobby lobby 
+	  on sale (seen in the middle of the image below). As seen in the image, it is noticeably larger compared to my other simpler builds.
+    </p>
+    <img src="images/IMG_0873.jpg" alt="Gundam High Grade Mazinger Zero Infinitism" width="281px" height="211px">
+
+    <p>
+      As mentioned before I also do 3D art and music. My primary software programs that I've been practicing in are 
+	  <a href="https://en.wikipedia.org/wiki/Blender_(software)" target="_blank">Blender</a> &amp; <a href="https://en.wikipedia.org/wiki/FL_Studio" target="_blank">FL Studio</a>. 
+	  My focus for both of these has always been for the sake of usage in various types of games, thus I also have experience in the 
+      <a href="https://en.wikipedia.org/wiki/Unity_(game_engine)" target="_blank">Unity game engine</a>. I really don't wish to make a 
+	  career out of either of these assuming I build my skills enough, and would rather they remain separate, but I do hope to acquire 
+	  greater reach with time.
+    </p>
+    <p>Below are a few of my works. One using Blender and another using FL Studio:</p>
+
+    <div>
+      <img src="images/Swordblend.jpg" alt="Render of a sword in stone" width="216px" height="270">
+    </div>
+
+    <div>
+      <audio controls>
+        <source src="images/TownRe.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+  </section>
+
+  <section id="Education">
+    <h2>Education</h2>
+    <p>
+      From 2019 to 2023 I attended Paxon School for Advanced Studies in their <a href="https://en.wikipedia.org/wiki/International_Baccalaureate">International Baccalaureate program</a>. 
+	  I also received credit for an FSCJ college course back in middle school. While I believe these experiences were valuable, I would 
+	  say I only truly began working towards my career goals when I attended UNF the fall after my graduation. A big reason I chose the 
+	  Information Technology degree was a fascination with the field of cybersecurity, especially when it came to red team tasks such as 
+	  penetration testing. That being said, I've also had eyes on AI and web development as I've started to learn more about it. 
+	  If my plans did ever change, I believe it would be in that direction.
+    </p>
+    <p>
+      I'm currently looking to become A+ and Network+ certified with 
+      <a href="https://en.wikipedia.org/wiki/CompTIA" target="_blank">CompTIA</a> by the time I graduate. Additionally, I have also considered pursuing a 
+	  masters to further expand my knowledge.
+    </p>
+    <h3>Credentials:</h3>
+    <ul class="credentials">
+      <li class="diploma">(2023) Diploma from <span>Paxon School for Advanced Studies</span> Cum Laude</li>
+      <li class="degree">(Pursuing, expected 2027) Bachelor Degree in Information Technology at the <span>University of North Florida</span></li>
+      <li class="cert">(Pursuing) <span>CompTIA A+</span></li>
+      <li class="cert">(Pursuing) <span>CompTIA Net+</span></li>
+    </ul>
+  </section>
+</div>
+
 	</body>
 	<footer>
-		<a href="index.html">Homepage</a>
-		<a href="schedule.html">Summer '25 Schedule</a>
+		<nav class="foot-nav">
+			<a href="schedule.html">Schedule</a>
+			<a href="account.html">Account Creation</a>
+			<a href="../index.html">ePortfolio</a>
+		</nav>
 	</footer>
 </html>
